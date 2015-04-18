@@ -1,0 +1,9 @@
+services:
+    holycow.browserupdate.listener:
+        class: holycow\browserupdate\event\listener
+        arguments:
+            - @config
+            - @controller.helper
+            - @template
+        tags:
+            - { name: event.listener }

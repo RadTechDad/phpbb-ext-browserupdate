@@ -1,0 +1,32 @@
+{
+    "name": "holycow/browserupdate",
+    "type": "phpbb-extension",
+    "description": "Displays a notification to notify the user that their browser outdated and that they should update their browser. Connects to browser-update.org to determine browser versions.",
+    "homepage": "https://github.com/HoLyCoWzOrZ/phpbb-ext-browserupdate",
+    "version": "1.0.0",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "browserupdate",
+        "modern",
+        "browser"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Darrell Dudics (a.k.a. HoLyCoW, a.k.a. HoLyCoWzOrZ)",
+            "email": "me@holycowzorz.com",
+            "homepage": "http://holycowzorz.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Browser Update",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0,<3.2.*@dev"
+        }
+    }
+}
