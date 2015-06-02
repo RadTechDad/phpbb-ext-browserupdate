@@ -1,3 +1,4 @@
+<?php
 /**
  *
  * @package phpBB Extension - Browser Update
@@ -6,6 +7,7 @@
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
+
 /**
  * DO NOT CHANGE
  */
@@ -13,14 +15,17 @@ if (!defined('IN_PHPBB'))
 {
 	exit;
 }
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
 $lang = array_merge($lang, array(
 	// ACP Module
 	'ACP_BROWSERUPDATE'					=> 'Uuenda veebilehitsejat',
 	'ACP_BROWSERUPDATE_SETTINGS'		=> 'Teate seaded',
+
 	// ACP Logs
 	'ACP_BROWSERUPDATE_UPDATE_LOG'		=> '<strong>Muudetud veebilehitseja uuenduse seadeid</strong>',
 ));
